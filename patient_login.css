@@ -1,0 +1,97 @@
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  /* justify-content:center; */
+  align-items: baseline;
+  height: 100vh;
+  margin: 0;
+}
+
+div.head {
+  font-size: 2rem;
+  text-align: left;
+  background-color: cadetblue;
+  /* background-image: url(Image/patient.jpg);
+  background:cover; */
+  /* justify-content: left; */
+  /* margin: 20px; */
+  height: 580px;
+  /* font-synthesis-weight: 100px; */
+  color: #fff;
+  padding: 200px;
+  text-align: center;
+}
+
+h1.hd2 {
+  color: lightpink;
+}
+
+.navbar {
+  padding: 20px;
+  font: 400 20px/1.5 "Lato", sans-serif;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  text-emphasis: none;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+.form {
+  width: 60%;
+  margin: auto;
+}
+
+form {
+  justify-content: center;
+  /* border: 500px; */
+  width: 450px;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: darkslateblue;
+  font: 350 18px/1.5 "Lato", sans-serif;
+}
+
+.button:hover {
+  background-color: darkgray;
+}

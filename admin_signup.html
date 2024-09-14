@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin_signup.css" />
+    <title>Admin Sign up</title>
+    <style>
+        .home-button {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+        }
+
+        .home-button a {
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            background-color:dimgrey;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-button">
+        <a href="home.html">Home</a>
+    </div>
+    <div class="head">
+        <h1 class="hd1">Welcome</h1>
+        <h1 class="hd2">Admin</h1>
+    </div>
+    <div class="form">
+        <div class="navbar">
+            <ul>
+                <li><a href="admin_signup.html">Sign up</a></li>
+                <li><a href="admin_login.html">Sign in</a></li>
+            </ul>
+            <hr />
+        </div>
+        <div class="signin">
+            <form method="post" action="#">
+                <label for="name"></label><br />
+                <input type="text" id="name" name="name" placeholder="Full name" /><br />
+                <label for="email"></label><br />
+                <input type="email" id="email" name="email" placeholder="Email" /><br />
+                <label for="username"></label><br />
+                <input type="text" id="username" name="username" placeholder="Username" /><br />
+                <label for="password"></label><br />
+                <input type="password" id="password" name="password" placeholder="Password" /><br />
+                <br />
+                <!-- <div>
+                    <input class="button" type="submit" name="submit" value="Create an account" />
+                </div> -->
+                <a href="index.html" class="button">Create an account</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

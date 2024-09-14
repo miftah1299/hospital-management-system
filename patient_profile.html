@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient's Profile</title>
+</head>
+<body>
+<center>
+
+    <div class="profile">
+        <div style="font-size: 20px;font-family: arial;font-style: initial;background-color: indigo;color: white;padding: 5px;">{{ user.first_name }}</div>
+    <table>
+    
+    <tr><th>Name:</th><th>{{ user.first_name }}</th></tr>
+    <tr><th>Email:</th><th>{{ user.email }}</th></tr>
+    <tr><th>Phone:</th><th>{{ user.phone }}</th></tr>
+    <tr><th>Gender:</th><th>{{ user.gender }}</th></tr>
+    <tr><th>Age:</th><th>{{ user.age }}</th></tr>
+    {% ifequal pro.user.last_name "Patient" %}
+    <tr><th>Address:</th><th>{{ user.address }}</th></tr>
+    <tr><th>Blood Group:</th><th>{{ user.bloodgroup }}</th></tr>
+    <tr><th>Case Paper:</th><th>{{ user.casepaper }}</th></tr>
+    </table>
+    <a href="{{ user.image.url }}"><input type="submit" style='width:300px;margin:10px;font-size:18px;padding:10px;background-color: green;color: white;border: none;border-radius: 25px;font-weight: bold;' value="Medical Report"></a>
+    <a href=""><input type="submit" style='width:300px;margin:10px;font-size:18px;padding:10px;background-color: green;color: white;border: none;border-radius: 25px;font-weight: bold;' value="Update Profile"></a>
+    
+    <tr><th>Department:</th><th>{{ user.Department }}</th></tr>
+    <tr><th>Attendance:</th><th>{{ user.attendance }}</th></tr>
+    <tr><th>Salary:</th><th>{{ user.salary }}</th></tr>
+    </table>
+    </div>
+    </center>
+</body>
+</html>

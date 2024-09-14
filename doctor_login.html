@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="doctor_login.css" />
+    <title>Doctor Sign in</title>
+    <style>
+        .home-button {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+        }
+
+        .home-button a {
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            background-color:dimgrey;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-button">
+        <a href="home.html">Home</a>
+    </div>
+    <div class="head">
+        <h1 class="hd1">Welcome</h1>
+        <h1 class="hd2">Doctor</h1>
+    </div>
+    <div class="form">
+        <div class="navbar">
+            <ul>
+                <li class="a1"><a href="doctor_signup.html">Sign up</a></li>
+                <li class="a2"><a href="doctor_login.html">Sign in</a></li>
+            </ul>
+            <hr>
+        </div>
+        <div class="signin">
+            <form method="post" action="#">
+                <label for="username"></label><br />
+                <input type="text" id="username" name="username" placeholder="Username or email" /><br />
+                <label for="password"></label><br />
+                <input type="password" id="password" name="password" placeholder="Password" /><br />
+                <br />
+                <!-- <input class="button" type="submit" name="submit" value="Sign in"/>
+                        <br /> -->
+                <a href="index.html" class="button">Sign in</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

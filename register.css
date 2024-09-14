@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(Image/undraw_medical_care_movn.png);
+    background-size:cover;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resister-now{
+    width: 320px;
+    height: 450px;
+    padding: 30px;
+    border: 5px solid #8d73be;
+    border-radius: 20px;
+    outline: none;
+    background: #ecf0f1;
+}
+
+form h2{
+    color:black;
+}
+
+.input-style{
+    margin-top: 15px;
+}
+.input-style input{
+    width: 90%;
+    background: transparent;
+    padding: 3px;
+    border: 2px solid #6f408b;
+    border-radius: 5px;
+    color:black;
+    outline: none;
+    height: 15px;
+    margin-bottom: 10px;
+}
+.input-style label{
+    color:black;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.gender p{
+    color:black;
+    margin-top: 4px;
+}
+
+.option{
+    margin-top: 6px;
+}
+.option label{
+    color:black;
+    cursor: pointer;
+}
+
+.resister-page input{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(130deg, #c375d1, #6f228d);
+    outline: none;
+    border-radius: 5px;
+    color:black;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+}
+.resister-page input:hover{
+    background: linear-gradient(-130deg, #7f55bf, #7c47aa);
+}

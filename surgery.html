@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine</title>
+    <style>
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        header {
+            background-color: rgb(14 33 102 / 51%);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            /* position: fixed; */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        h1{
+            color:blueviolet;
+            text-align: center;
+        }
+
+        .doctor-container {
+            display: flex;
+            justify-content: space-around; /* Adjust as needed */
+            flex-wrap: wrap; /* To allow wrapping */
+        }
+
+        .doctor-info {
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+            flex: 0 0 calc(33.33% - 40px); /* Adjust based on number of columns */
+        }
+
+        .doctor-info h2 {
+            color: cadetblue;
+            margin-bottom: 10px;
+        }
+
+        .doctor-info p {
+            margin: 5px 0;
+        }
+
+        .doctor-info img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <h1>Surgery</h1>
+    <div class="doctor-container">
+        <div class="doctor-info">
+            <img src="" alt="Dr. John Doe">
+            <h2>Dr. John Doe</h2>
+            <p>Specialty: Cardiology</p>
+            <p>Years of Experience: 10</p>
+            <p>Contact: johndoe@example.com</p>
+        </div>
+
+        <div class="doctor-info">
+            <img src="" alt="Dr. Jane Smith">
+            <h2>Dr. Jane Smith</h2>
+            <p>Specialty: Neurology</p>
+            <p>Years of Experience: 8</p>
+            <p>Contact: janesmith@example.com</p>
+        </div>
+
+        <div class="doctor-info">
+            <img src="" alt="Dr. Michael Johnson">
+            <h2>Dr. Michael Johnson</h2>
+            <p>Specialty: Pediatrics</p>
+            <p>Years of Experience: 12</p>
+            <p>Contact: michaeljohnson@example.com</p>
+        </div>
+
+        <div class="doctor-info">
+            <img src="" alt="Dr. Emily Brown">
+            <h2>Dr. Emily Brown</h2>
+            <p>Specialty: Psychiatry</p>
+            <p>Years of Experience: 9</p>
+            <p>Contact: emilybrown@example.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
